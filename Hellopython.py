@@ -1,11 +1,13 @@
 print("Hello You!")
 print("What is your name?")
-
+print()
 name= input()
+print()
 print(f"Hi there {name}")
 print("How old are you "+name+"?" )
-
+print()
 age=input()
+print()
 print("Why are you "+age+"?")
 
 NotImportant= input()
