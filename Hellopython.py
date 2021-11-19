@@ -2,13 +2,16 @@ print("K- Hello You!\nMy name is Kevin.")
 print("What is your name?")
 print()
 
-name= input()
+name =input()
 print()
-if name == "Kevin"or"kevin":
-  name = "Kevin"
-  print("K- Wow, we got the same name. Nice to meet you Kevin")
+
+if name == "Kevin" or name == "kevin":
+  name="Kevin"
+  print("Wow, we got the same name. Hi there Kevin")
+  
 else:
   print(f"K- Hi there {name}")
+
 print("How old are you?" )
 print()
 
@@ -28,11 +31,11 @@ print()
 Stance_on_hats= input() 
 print()
 
-if Stance_on_hats == "Yes"or"yes" :
+if Stance_on_hats == "Yes"or Stance_on_hats =="yes" :
   Stance_on_hats = "like"
   pass
 else:
-  if Stance_on_hats == "No"or"no":
+  if Stance_on_hats == "No"or Stance_on_hats=="no":
     Stance_on_hats = "dislike"
     pass
   else: 
@@ -101,12 +104,12 @@ else:
 Opinion_on_day=input()
 print()
 
-if Opinion_on_day == "Yes"or"yes" :
+if Opinion_on_day == "Yes"or Opinion_on_day =="yes" :
   print("K- That's Wonderful!")
   Opinion_of_day = "good day"
   pass
 else:
-  if Opinion_on_day == "No"or"no":
+  if Opinion_on_day == "No"or Opinion_on_day =="no":
     print("K- I'm sorry to hear that" )
     Opinion_of_day = "bad day"
     pass
