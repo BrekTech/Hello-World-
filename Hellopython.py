@@ -4,7 +4,9 @@ print()
 
 name= input()
 print()
-if name == "Kevin": print("K- Wow, we got the same name. Nice to meet you Kevin")
+if name == "Kevin"or"kevin":
+  name = "Kevin"
+  print("K- Wow, we got the same name. Nice to meet you Kevin")
 else:
   print(f"K- Hi there {name}")
 print("How old are you?" )
